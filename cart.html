@@ -1,9 +1,65 @@
-<h1>
-  Flipcart product
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | BookNest</title>
 
-<a href="index.html"> HOME </a>
-<a href="about.html"> about </a>
-<a href="books.html"> books </a>
-<a href="cart.html"> cart </a>
-<a href="contact.html"> contact </a>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+
+  <nav class="bg-indigo-900 text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <a href="index.html" class="text-2xl font-bold">📚 BookNest</a>
+
+      <div class="hidden md:flex gap-8">
+        <a href="index.html" class="hover:text-yellow-300">Home</a>
+        <a href="about.html" class="hover:text-yellow-300">About</a>
+        <a href="books.html" class="hover:text-yellow-300">Books</a>
+        <a href="cart.html" class="text-yellow-300 font-bold">Cart 🛒</a>
+        <a href="contact.html" class="hover:text-yellow-300">Contact</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <section class="max-w-4xl mx-auto px-6 py-16">
+
+    <h1 class="text-4xl font-bold text-indigo-900 mb-8">
+      Your Shopping Cart 🛒
+    </h1>
+
+    <div class="bg-white rounded-2xl shadow-md p-6">
+
+      <div class="flex justify-between items-center border-b pb-5">
+        <div>
+          <h2 class="text-xl font-bold">The Power of Mind</h2>
+          <p class="text-gray-500">Quantity: 1</p>
+        </div>
+
+        <span class="font-bold text-lg">₹399</span>
+      </div>
+
+      <div class="flex justify-between mt-8 text-xl font-bold">
+        <span>Total</span>
+        <span class="text-indigo-700">₹399</span>
+      </div>
+
+      <button class="w-full mt-6 bg-indigo-700 text-white py-3 rounded-xl
+                     font-bold hover:bg-indigo-800">
+        Proceed to Checkout
+      </button>
+
+    </div>
+
+  </section>
+
+  <footer class="bg-gray-900 text-white text-center py-6">
+    © 2026 BookNest. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
