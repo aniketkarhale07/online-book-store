@@ -1,8 +1,98 @@
-<h1>
-  online book store
-</h1>
-<a href="index.html"> HOME </a>
-<a href="about.html"> about </a>
-<a href="books.html"> books </a>
-<a href="cart.html"> cart </a>
-<a href="contact.html"> contact </a>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookNest | Online Book Store</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-indigo-900 text-white shadow-lg">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <a href="index.html" class="text-2xl font-bold">
+        📚 BookNest
+      </a>
+
+      <div class="hidden md:flex gap-8">
+        <a href="index.html" class="hover:text-yellow-300">Home</a>
+        <a href="about.html" class="hover:text-yellow-300">About</a>
+        <a href="books.html" class="hover:text-yellow-300">Books</a>
+        <a href="cart.html" class="hover:text-yellow-300">Cart 🛒</a>
+        <a href="contact.html" class="hover:text-yellow-300">Contact</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-r from-indigo-900 to-purple-800 text-white">
+    <div class="max-w-7xl mx-auto px-6 py-24 text-center">
+
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-6">
+        Discover Your Next Great Book 📖
+      </h1>
+
+      <p class="text-lg md:text-xl text-indigo-100 max-w-2xl mx-auto mb-8">
+        Explore thousands of amazing books and bring the joy of reading
+        into your life.
+      </p>
+
+      <a href="books.html"
+         class="inline-block bg-yellow-400 text-gray-900 px-8 py-3 rounded-full
+                font-bold hover:bg-yellow-300 transition">
+        Explore Books →
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="max-w-7xl mx-auto px-6 py-16">
+
+    <h2 class="text-3xl font-bold text-center mb-12">
+      Why Choose BookNest?
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-white p-8 rounded-2xl shadow-md text-center hover:shadow-xl transition">
+        <div class="text-5xl mb-4">📚</div>
+        <h3 class="text-xl font-bold mb-3">Huge Collection</h3>
+        <p class="text-gray-600">
+          Find books from different categories and genres.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-md text-center hover:shadow-xl transition">
+        <div class="text-5xl mb-4">🚚</div>
+        <h3 class="text-xl font-bold mb-3">Fast Delivery</h3>
+        <p class="text-gray-600">
+          Get your favorite books delivered quickly to your doorstep.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-md text-center hover:shadow-xl transition">
+        <div class="text-5xl mb-4">💳</div>
+        <h3 class="text-xl font-bold mb-3">Secure Payment</h3>
+        <p class="text-gray-600">
+          Enjoy a safe and simple shopping experience.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>© 2026 BookNest. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
+
